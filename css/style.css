@@ -25,9 +25,9 @@ body {
 }
 
 .shadow-conteiner {
-    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.46);
-    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.46);
-    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.46);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.46);
 }
 
 .flex-conteiner {
@@ -56,9 +56,10 @@ body {
 .tittle-page h1 {
     font-family: 'Bebas Neue', cursive;
 }
+
 .social-networks {
     top: 12vw;
-    left: 70vw;     
+    left: 70vw;
     position: absolute;
 }
 
@@ -102,20 +103,23 @@ body {
 }
 
 #logo-facebook {
-    -webkit-mask: url("/assets/icons/logo-facebook.svg") no-repeat center;
-    mask: url("/assets/icons/logo-facebook.svg") no-repeat center;
+    -webkit-mask: url("/docs/assets/icons/logo-facebook.svg") no-repeat center;
+    mask: url("/docs/assets/icons/logo-facebook.svg") no-repeat center;
 }
+
 #logo-instagram {
-    -webkit-mask: url("/assets/icons/logo-instagram.svg") no-repeat center;
-    mask: url("/assets/icons/logo-instagram.svg") no-repeat center;
+    -webkit-mask: url("/docs/assets/icons/logo-instagram.svg") no-repeat center;
+    mask: url("/docs/assets/icons/logo-instagram.svg") no-repeat center;
 }
+
 #logo-linkedin {
-    -webkit-mask: url("/assets/icons/logo-linkedin.svg") no-repeat center;
-    mask: url("/assets/icons/logo-linkedin.svg") no-repeat center;
+    -webkit-mask: url("/docs/assets/icons/logo-linkedin.svg") no-repeat center;
+    mask: url("/docs/assets/icons/logo-linkedin.svg") no-repeat center;
 }
+
 #logo-github {
-    -webkit-mask: url("/assets/icons/logo-github.svg") no-repeat center;
-    mask: url("/assets/icons/logo-github.svg") no-repeat center;
+    -webkit-mask: url("/docs/assets/icons/logo-github.svg") no-repeat center;
+    mask: url("/docs/assets/icons/logo-github.svg") no-repeat center;
 }
 
 .container-basic-information {
@@ -140,7 +144,6 @@ body {
     width: auto;
     height: auto;
     border-radius: 4px 0 0 4px;
-
 }
 
 .basic-information {
@@ -157,8 +160,8 @@ body {
     padding: 0.2vw;
     border-radius: 0.2vw;
     font-weight: bold;
-
 }
+
 .basic-information-strong {
     font-weight: bold;
     color: #276292;
@@ -178,7 +181,7 @@ body {
     width: 40%;
 }
 
-.navigate-buttons button{
+.navigate-buttons button {
     display: block;
     width: 90%;
     height: 20%;
@@ -243,7 +246,7 @@ main {
     margin-top: 1.3vw;
 }
 
-.conteiner-imagens-skills img{
+.conteiner-imagens-skills img {
     display: block;
     margin: 1vw;
     width: auto;
@@ -261,4 +264,3 @@ main {
     color: white;
     font-size: 1.3vw;
 }
-
