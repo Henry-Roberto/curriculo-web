@@ -103,23 +103,23 @@ body {
 }
 
 #logo-facebook {
-    -webkit-mask: url("/docs/assets/icons/logo-facebook.svg") no-repeat center;
-    mask: url("/docs/assets/icons/logo-facebook.svg") no-repeat center;
+    -webkit-mask: url("docs/assets/icons/logo-facebook.svg") no-repeat center;
+    mask: url("docs/assets/icons/logo-facebook.svg") no-repeat center;
 }
 
 #logo-instagram {
-    -webkit-mask: url("/docs/assets/icons/logo-instagram.svg") no-repeat center;
-    mask: url("/docs/assets/icons/logo-instagram.svg") no-repeat center;
+    -webkit-mask: url("docs/assets/icons/logo-instagram.svg") no-repeat center;
+    mask: url("docs/assets/icons/logo-instagram.svg") no-repeat center;
 }
 
 #logo-linkedin {
-    -webkit-mask: url("/docs/assets/icons/logo-linkedin.svg") no-repeat center;
-    mask: url("/docs/assets/icons/logo-linkedin.svg") no-repeat center;
+    -webkit-mask: url("docs/assets/icons/logo-linkedin.svg") no-repeat center;
+    mask: url("docs/assets/icons/logo-linkedin.svg") no-repeat center;
 }
 
 #logo-github {
-    -webkit-mask: url("/docs/assets/icons/logo-github.svg") no-repeat center;
-    mask: url("/docs/assets/icons/logo-github.svg") no-repeat center;
+    -webkit-mask: url("docs/assets/icons/logo-github.svg") no-repeat center;
+    mask: url("docs/assets/icons/logo-github.svg") no-repeat center;
 }
 
 .container-basic-information {
