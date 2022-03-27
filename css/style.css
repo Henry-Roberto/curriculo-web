@@ -82,7 +82,7 @@ body {
 
 .social-networks li:hover {
     transform: scale(1.03);
-    opacity: 90%;
+    background-color: #14588f;
 }
 
 .social-networks a:focus {
@@ -148,7 +148,7 @@ body {
 
 .basic-information {
     margin: 2vw 0 0 2vw;
-    color: rgb(38, 38, 38);
+    color: #414141;
     font-size: 1.1vw;
     width: 60%;
 }
@@ -234,6 +234,7 @@ main {
 
 .description-skills p {
     font-size: 1.1vw;
+    color: #414141;
 }
 
 .conteiner-imagens-skills {
@@ -263,4 +264,40 @@ main {
     clip-path: polygon(0% 0%, 0% 100%, 100% 0);
     color: white;
     font-size: 1.3vw;
+}
+
+.conteiner-experiences {
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    padding: 1vw;
+    justify-content: space-around;
+}
+
+.experience {
+    border-radius: 0.1vw;
+    background-color: #f7f7f7;
+    width: 35%;
+    /* margin-right: 10%; */
+    font-weight: bold;
+    padding: 0 1vw 1vw;
+    color: #595959;
+}
+
+.experience h3 {
+    background-color: #104977;
+    color: white;
+    margin: 0.8vw 0 0.7vw -1.8vw;
+    width: max-content;
+    padding: 0.9vw;
+    border-radius: 0.1vw;
+    /* position: absolute; */
+}
+
+.detail-tittle {
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0);
+    width: 40%;
+    height: 15%;
+    background-color: #104977;
+
 }
